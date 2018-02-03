@@ -1,0 +1,14 @@
+{
+  "name": "Mayur-Works",
+  "version": "1.0.0",
+  "description": "My portfolio",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --directory --server --files \"assets/css/*.css, *.html, assets/js/*.js\""
+  },
+  "author": "Mayur Devgaonkar",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.12.5 <2.23.2"
+  }
+}
